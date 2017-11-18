@@ -1,0 +1,122 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	header
+		height: auto
+		padding-bottom: 20px
+		.c-zip
+			position: static
+			margin: 0 auto
+	.doc-part
+		margin-bottom: 20px
+	.c-desktop 
+		.big-desk 
+			button
+				margin: 0 35%
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.c-desktop
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: top center
+		.small-desk
+			background-position: -19px 0
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.c-desktop
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: top center
+		.small-desk
+			margin-bottom: 220px 
+			background-position: -215px 0
+			div
+				width: 40% 
+			p
+				width: 100% 
+		.big-desk
+			background-position: -155px 0
+			div
+				width: 70%
+				float: none
+				margin: 0 auto
+			h1
+				text-align: center
+			p
+				width: 100% 
+			button
+				margin: 0 25%
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.c-zip
+		img
+			width: inherit
+		button
+			margin: 0 50px
+	.doc-part
+		p
+			width: 100%
+		img
+			float: none
+		h2
+			display: block
+	.c-desktop 
+		.small-desk 
+			div
+				width: 55%
+		.big-desk
+			div
+				width: 95%
+			button
+				margin: 0 17%
+	.c-maping 
+		.c-form 
+			form 
+				label 
+					input
+						width: 190px
+					textarea
+						width: 190px
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

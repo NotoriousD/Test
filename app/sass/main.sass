@@ -1,0 +1,229 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+header
+	background-image: url(/img/top_bg.png)
+	height: 100vh
+	background-repeat: no-repeat
+	background-size: cover
+	.col-md-12
+		position: relative
+	.e-logo
+		text-align: center
+		a
+			margin: 70px 0
+			display: block
+	h1
+		color: #fff
+		font-size: 49px
+		text-transform: uppercase
+		font-weight: 400
+		text-align: center
+		span
+			font-weight: 700
+	.c-zip
+		max-width: 335px
+		max-height: 335px
+		width: 100%
+		height: 100%
+		background-color: #fff
+		padding: 20px 0
+		border-radius: 4px
+		position: relative
+		bottom: -100px
+		left: 35%
+		border: 1px solid #ccc
+		z-index: 100
+		input
+			margin: 0 34px
+			margin-bottom: 20px
+			width: 80%
+			height: 35px
+			background-color: #fff
+			color: #b4adad
+			font-size: 15px
+			text-indent: 15px
+			border: 1px solid #e5e5e5
+			outline: none
+		p
+			font-size: 15px
+			font-weight: 400
+			text-align: center
+			color: #b4adad
+		button
+			width: 190px
+			height: 45px
+			background-color: #227dd3
+			border: 0
+			outline: none
+			border-radius: 4px
+			font-size: 26px
+			color: #fff
+			text-transform: uppercase
+			text-align: center
+			margin: 0 72px
+
+.c-document
+	padding-top: 130px
+	padding-bottom: 70px
+
+.doc-part
+	img
+		float: left
+		margin-right: 20px
+	h2
+		display: block
+		margin: 0
+		font-size: 26px
+	p
+		display: inline-block
+		width: 50%
+		font-size: 14px
+		margin: 0
+
+.c-desktop
+	background-image: url(/img/bg_green.png)
+	padding: 70px 0
+	color: #fff
+	h1
+		font-size: 39px
+		text-align: center
+	.small-desk
+		background-image: url(/img/Shadow1.png)
+		background-repeat: no-repeat
+		background-position: 160px 0
+		margin-bottom: 150px
+		div
+			margin: 0 auto
+			width: 13%
+		p
+			font-size: 14px
+			width: 60%
+			margin: 0 auto
+			margin-bottom: 30px
+	.big-desk
+		background-image: url(/img/Shadow2.png)
+		background-repeat: no-repeat
+		background-position: -215px 0
+		margin-top: 150px
+		margin-bottom: 75px
+		div
+			float: left
+			margin-right: 50px
+		h1
+			margin: 0
+			text-align: left
+		p
+			margin: 0
+			width: 90%
+		button
+			width: 190px
+			height: 50px
+			background-color: transparent
+			border: 2px solid #fff
+			border-radius: 5px
+			color: #fff
+			font-size: 27px
+			margin: 0 28%
+			margin-top: 50px
+
+.c-maping
+	background-image: url(/img/map_bg.png)
+	padding-top: 150px
+	padding-bottom: 60px
+	.c-form
+		max-width: 430px
+		max-height: 430px
+		width: 100%
+		height: 100%
+		background-color: rgba(255, 255, 255, .6)
+		border-radius: 1000px
+		padding: 75px 0
+		margin: 0 auto
+		form
+			margin: 0 17%
+			label
+				display: block
+				margin-bottom: 20px
+				input
+					width: 275px
+					height: 30px
+					font-size: 14px
+					color: #4c505d
+					border: 1px solid #d8d8d8
+					text-indent: 10px
+					outline: none
+				textarea
+					width: 275px
+					height: 80px
+					font-size: 14px
+					color: #4c505d
+					border: 1px solid #d8d8d8
+					text-indent: 10px
+					outline: none
+			button
+				background-color: transparent
+				border: 0
+				margin: 0 35%
+				outline: none
+
+footer
+	background-color: #43a06d
+	p
+		text-align: center
+		color: #fff
+		font-size: 14px
+
+		
+
+@import "media" // Всегда в конце
